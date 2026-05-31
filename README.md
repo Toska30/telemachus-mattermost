@@ -1,10 +1,10 @@
 # telemachus-mattermost
 
-A small connector that lets you talk to [Telemachus](https://github.com/dadawg/telemachus) from Mattermost. One Telemachus session per Mattermost channel; replies stream back via Mattermost's incoming webhook.
+A small connector that lets you talk to [Telemachus](https://github.com/Kristos/telemachus) from Mattermost. One Telemachus session per Mattermost channel; replies stream back via Mattermost's incoming webhook.
 
 ## Why this exists
 
-[Telemachus](https://github.com/dadawg/telemachus) is a self-hosted multi-provider AI agent built by [Kristo Disha](https://github.com/dadawg). It already supports Discord and Telegram as transports. I built this connector because most of the regulated-software teams I work with as a freelancer **can't put their data in Slack or Discord** — they run Mattermost (or a comparable self-hosted chat) for that reason. Mattermost is what dialysis clinics, banks, and gov labs actually run.
+[Telemachus](https://github.com/Kristos/telemachus) is a self-hosted multi-provider AI agent built by [Kristo Disha](https://github.com/Kristos). It already supports Discord and Telegram as transports. I built this connector because most of the regulated-software teams I work with as a freelancer **can't put their data in Slack or Discord** — they run Mattermost (or a comparable self-hosted chat) for that reason. Mattermost is what dialysis clinics, banks, and gov labs actually run.
 
 This bridge means the same Telemachus workflows (provider routing, prompt caching, multi-agent orchestration) work without their data ever leaving the org's infrastructure.
 
@@ -74,7 +74,7 @@ npm test
 
 ## Attribution
 
-This is a third-party connector for the Telemachus project. Telemachus itself is by [Kristo Disha](https://github.com/dadawg) — I built this bridge as an extension while collaborating with him on the project. The Telemachus project documents its public HTTP API; this repo only depends on that contract, not on internal modules.
+This is a third-party connector for the Telemachus project. Telemachus itself is by [Kristo Disha](https://github.com/Kristos) — I built this bridge as an extension while collaborating with him on the project. The Telemachus project documents its public HTTP API; this repo only depends on that contract, not on internal modules.
 
 ## License
 
